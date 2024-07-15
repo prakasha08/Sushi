@@ -1,0 +1,23 @@
+.trending{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.trending_discover{
+
+}
+.trending_content{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px 64px;
+}
+ .trending_list{
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+
+ .trending
