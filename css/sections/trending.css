@@ -1,10 +1,12 @@
-.trending{
+.trending {
     position: relative;
+  
     display: flex;
     flex-direction: column;
     overflow: hidden;
-}
-.trending_discover {
+  }
+  
+  .trending__discover {
     position: absolute;
     top: 44%;
     left: 44%;
@@ -22,7 +24,7 @@
     align-items: center;
   }
   
-  .trending_discover p {
+  .trending__discover p {
     font-size: 18px;
     font-weight: 500;
     font-family: var(--plus-jakarta-sans);
@@ -30,14 +32,17 @@
     text-transform: uppercase;
     color: #fff;
   }
- .trending-sushi,.trending-drinks{
+  
+  .trending-sushi,
+  .trending-drinks {
     width: 100%;
     min-height: 640px;
+  
     display: flex;
     flex-direction: row;
- }
-
-.trending_content {
+  }
+  
+  .trending__content {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -46,14 +51,14 @@
     padding: 32px 64px;
   }
   
-  .trending_list {
+  .trending__list {
     list-style: none;
   
     flex-wrap: wrap;
     gap: 20px;
   }
   
-  .trending_list li {
+  .trending__list li {
     flex: 1;
     display: flex;
     align-items: center;
@@ -63,7 +68,7 @@
     min-width: 210px;
   }
   
-  .trending_icon {
+  .trending__icon {
     width: 24px;
     height: 24px;
   
@@ -71,13 +76,13 @@
     background-color: var(--primary-color);
   }
   
-  .trending_icon img {
+  .trending__icon img {
     width: 50%;
     height: 50%;
     object-fit: contain;
   }
   
-  .trending_list p {
+  .trending__list p {
     flex: 1;
     font-size: 16px;
     font-weight: 500;
@@ -86,38 +91,33 @@
     color: var(--secondary-color);
   }
   
-  .trending_image {
+  .trending__image {
     flex: 1;
-    justify-content: end;
+  
     position: relative;
     padding: 32px 64px;
-    
+  
     background-color: var(--color-white);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
   }
   
-  .trending-sushi .trending_image {
+  .trending-sushi .trending__image {
     background-image: url("../../assets/japanese_sushi.png");
   }
   
-  .trending-drinks .trending_image {
+  .trending-drink .trending__image {
     background-image: url("../../assets/japanese_drinks.png");
   }
   
-  .trending_image img {
+  .trending__image img {
     width: 254px;
     height: 260px;
     object-fit: contain;
   }
   
   /* Arrows */
-  .trending_arrow {
-    position: absolute;
-    z-index: 1;
-  }
-
   .trending__arrow {
     position: absolute;
     z-index: 1;
